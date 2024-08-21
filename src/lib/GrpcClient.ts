@@ -254,6 +254,7 @@ export class GrpcClient extends EventEmitter {
 			 */
 			'grpc.http2.max_pings_without_data': 0,
 			'grpc.max_receive_message_length': -1,
+			'grpc.max_send_message_length': -1,
 			interceptors: [this.interceptor],
 		})
 		this.listNameMethods = []
